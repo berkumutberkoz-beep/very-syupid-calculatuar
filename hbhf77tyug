@@ -1,0 +1,17 @@
+num1=int(input("pick a number"))
+num2=int(input("pick a nother number"))
+sacabambaspis=input("-+/* pick one")
+if sacabambaspis=="-":
+      answer=num1-num2
+      print(answer)
+elif sacabambaspis=="+":
+      answer=num1+num2
+      print(answer)
+elif sacabambaspis=="/":
+      answer=num1/num2
+      print(answer)
+elif sacabambaspis=="*":
+      answer=num1*num2
+      print(answer)
+else:
+      print("there is something wrong with you")
